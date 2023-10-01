@@ -14,7 +14,11 @@
         android:id="@+id/constractionFragment"
         android:name="com.bis.Expence.ui.fragment.ConstractionFragment"
         android:label="fragment_constraction"
-        tools:layout="@layout/fragment_constraction" />
+        tools:layout="@layout/fragment_constraction" >
+        <action
+            android:id="@+id/action_constractionFragment_to_addConstractionFragment"
+            app:destination="@id/addConstractionFragment" />
+    </fragment>
     <fragment
         android:id="@+id/dailyFragment"
         android:name="com.bis.Expence.ui.fragment.DailyFragment"
@@ -25,4 +29,9 @@
         android:name="com.bis.Expence.ui.fragment.GroceryFragment"
         android:label="fragment_grocery"
         tools:layout="@layout/fragment_grocery" />
+    <fragment
+        android:id="@+id/addConstractionFragment"
+        android:name="com.bis.Expence.ui.fragment.AddConstractionFragment"
+        android:label="fragment_add_constraction"
+        tools:layout="@layout/fragment_add_constraction" />
 </navigation>

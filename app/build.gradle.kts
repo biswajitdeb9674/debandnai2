@@ -8,7 +8,7 @@ plugins {
     id("org.jetbrains.kotlin.android")
     id ("androidx.navigation.safeargs")
     //id ("dagger.hilt.android.plugin")
-    //id ("kotlin-kapt")
+    id ("kotlin-kapt")
 
 
 }
@@ -53,7 +53,7 @@ android {
 
     }
 
-  /*  dataBinding {
+    /*dataBinding {
         //noinspection DataBindingWithoutKapt
         enabled = true
     }*/

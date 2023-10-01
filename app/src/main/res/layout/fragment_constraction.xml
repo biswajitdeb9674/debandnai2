@@ -10,6 +10,7 @@
     android:layout_marginBottom="60dp"
     tools:context=".ui.fragment.ConstractionFragment">
    <com.google.android.material.floatingactionbutton.FloatingActionButton
+       android:id="@+id/add_expence"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
        android:layout_alignParentEnd="true"

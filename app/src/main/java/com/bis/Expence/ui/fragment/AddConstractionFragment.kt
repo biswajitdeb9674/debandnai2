@@ -1,6 +1,7 @@
 package com.bis.Expence.ui.fragment
 
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -43,7 +44,8 @@ class AddConstractionFragment : BaseFragment(){
     private fun observer() {
 
         mistryViewModel.otherExpenceList.observe(viewLifecycleOwner){
-
+            var data=it.otherDataValue
+            Log.d("TAG_id", "observer: "+data[data.size-1].mBaki)
         }
     }
 
